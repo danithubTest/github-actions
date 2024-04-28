@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: dev/github-actions@9b3120c
+        uses: checkout/github-actions@dev
       - name: cat readme
         uses: cat README.md  
