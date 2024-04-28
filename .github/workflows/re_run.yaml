@@ -6,6 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v1690ae368d9e9e98dfa2099a85559cb9e815b08c
+        uses: actions/dev@9b3120c527d691747c9ce078b3084e12ca3a43a8
       - name: cat readme
         uses: cat README.md  
