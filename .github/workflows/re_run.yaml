@@ -8,4 +8,4 @@ jobs:
       - name: checkout
         uses: actions/checkout@4
       - name: cat readme
-        uses: cat README.md  
+        run: cat README.md  
